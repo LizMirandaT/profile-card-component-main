@@ -3,32 +3,35 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Profile card component</title>
 
-<link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="profile-card">
-      <div class="profile-card-top">
-        <img src="./images/image-victor.jpg" alt="./images/image-victor.jpg">
+    <div class="profile-card-top">
+      <img src="./images/image-victor.jpg" alt="./images/image-victor.jpg">
+    </div>
+    <div class="profile-card-bottom">
+      <div class="profile-card-bottom_datos-profile">
+        <div>
+          <span>Victor Crest</span>
+          <span>26</span>
+        </div>
+        <div>
+          <p>London</p>
+        </div>
+
       </div>
-      <div class="profile-card-bottom">
-          <div class="profile-card-bottom_datos-profile">
-            <div>
-              <span>Victor Crest</span>
-              <span>26</span>
-            </div>
-            <div>
-              <p>London</p>
-            </div>
-            
-          </div>
       <div class="profile-card-bottom_datos-seguidores">
         <div>
           <p>80K</p>
@@ -43,7 +46,8 @@
           <p>Photos</p>
         </div>
       </div>
-    </div> 
+    </div>
   </div>
 </body>
+
 </html>
